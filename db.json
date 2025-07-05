@@ -28,5 +28,116 @@
   "profile": {
     "name": "typicode"
   },
-  "getDeviceId" : {"result":1,"message":"Response ok...","dev_id":"MQI1-08-3A-8D-34-84-54","logo":"SERVEXL","product_name":"NEER","product_version":"2.0","footer_text":"SERVEXL","www":"https://www.servexl.in","max_rtu_drivers":0,"hw_version":"061-ss","fw_version":"2025-6-8","variant":"SXL_NEER"}
+  "getDeviceId": {
+    "result": 1,
+    "message": "Response ok...",
+    "dev_id": "MQI1-08-3A-8D-34-84-54",
+    "logo": "SERVEXL",
+    "product_name": "NEER",
+    "product_version": "2.0",
+    "footer_text": "SERVEXL",
+    "www": "https://www.servexl.in",
+    "max_rtu_drivers": 0,
+    "hw_version": "061-ss",
+    "fw_version": "2025-6-8",
+    "variant": "SXL_NEER"
+  },
+  "getActiveModbusDriver": {
+    "driver_id": "1",
+    "version": "1",
+    "active": true,
+    "dev_key": "f17f429303f8977d88c2df4e831fea88",
+    "vendor": "ServeXL Enterprises",
+    "meter": "SXL_Neer",
+    "name": "SXL_Neer",
+    "serial": {
+      "baud": "4",
+      "databits": "8",
+      "parity": "0",
+      "stopbits": "1"
+    },
+    "command": {
+      "slaveId": "7",
+      "function": "3",
+      "startAddr": "0",
+      "regCount": "4",
+      "timeOut": "300",
+      "retries": "3",
+      "repeat_int": "3",
+      "responseParser": {
+        "sensor_100": {
+          "id": "100",
+          "nm": "OHT_Level",
+          "un": "%",
+          "rg": "2",
+          "ra": "2",
+          "dt": "10",
+          "bo": "5",
+          "sn": "1",
+          "sd": "1",
+          "dp": "0",
+          "os": "0.000",
+          "do": "99",
+          "cv": "0.00",
+          "ac": true,
+          "di": true,
+          "tx": true
+        },
+        "sensor_101": {
+          "id": "101",
+          "nm": "Pump1",
+          "un": "On/Off",
+          "rg": "2",
+          "ra": "2",
+          "dt": "10",
+          "bo": "5",
+          "sn": "1",
+          "sd": "1",
+          "dp": "0",
+          "os": "0.000",
+          "do": "99",
+          "cv": "0.00",
+          "ac": true,
+          "di": true,
+          "tx": true
+        },
+        "sensor_102": {
+          "id": "102",
+          "nm": "SUMP_Level",
+          "un": "%",
+          "rg": "2",
+          "ra": "2",
+          "dt": "10",
+          "bo": "5",
+          "sn": "1",
+          "sd": "1",
+          "dp": "0",
+          "os": "0.000",
+          "do": "99",
+          "cv": "0.00",
+          "ac": true,
+          "di": true,
+          "tx": true
+        },
+        "sensor_103": {
+          "id": "103",
+          "nm": "Dry Run",
+          "un": "Status",
+          "rg": "2",
+          "ra": "2",
+          "dt": "10",
+          "bo": "5",
+          "sn": "1",
+          "sd": "1",
+          "dp": "0",
+          "os": "0.000",
+          "do": "99",
+          "cv": "0.00",
+          "ac": true,
+          "di": true,
+          "tx": true
+        }
+      }
+    }
+  }
 }
