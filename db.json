@@ -139,5 +139,12 @@
         }
       }
     }
+  },
+  "getSensorValues": {
+    "time": "ABCD",
+    "sensor_100": { "error": 0, "value": "1.1" },
+    "sensor_101": { "error": 0, "value": "2.22" },
+    "sensor_102": { "error": 0, "value": "3.33" },
+    "sensor_103": { "error": 0, "value": "4.44" }
   }
 }
