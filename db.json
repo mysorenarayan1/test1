@@ -28,4 +28,5 @@
   "profile": {
     "name": "typicode"
   }
+  "getDeviceId" : {"result":1,"message":"Response ok...","dev_id":"MQI1-08-3A-8D-34-84-54","logo":"SERVEXL","product_name":"NEER","product_version":"2.0","footer_text":"SERVEXL","www":"https://www.servexl.in","max_rtu_drivers":0,"hw_version":"061-ss","fw_version":"2025-6-8","variant":"SXL_NEER"}
 }
